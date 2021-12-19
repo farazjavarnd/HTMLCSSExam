@@ -1,0 +1,198 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+  }
+
+ /* Header */
+
+  .round {
+    background-color: #bbb;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #000;
+    display: inline-block;
+  }
+  
+  nav {
+    background-color: #454aa1;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  /* Navbar List */
+
+  nav li {
+    margin: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+
+/* Section One */
+  .section-one {
+    background-color: #787486;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    border-bottom: 3px solid black;
+  }
+
+  .section-one h1{
+      font-size: 40px;
+      margin-bottom: 20px;
+  }
+
+  .section-one pre {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .section-one button {
+    background-color: #3f49cd;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: solid 0.5px;
+    padding: 20px 20px;
+    border-radius: 10px;
+  }
+
+  .section-one button:hover {
+    background-color: #6897c4;
+    color: white; 
+  }
+
+
+
+/* Section Two - Projects Section */
+
+  .heading-one {
+    margin: 15px;
+    font-size: 25px;
+    text-align: center;
+    color: #2d37c5;
+  }
+
+  .section-two {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .section-below-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .row-one {
+    width: 35%;
+    text-align: center;
+    background-color: #454aa1;
+    color: white;
+    min-height: 220px;
+    margin: 10px 50px;
+    border-radius: 10px;
+  }
+
+  .section-two h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .section-two p {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .section-below-two h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .section-below-two p {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .row-one button {
+    padding: 10px 10px;
+    color: white;
+    background-color: #f5c43f;
+    border: solid 1px #fff;
+    font-weight: bold;
+  }
+
+  .row-one button:hover {
+    background-color: #c4c368;
+    color: white; 
+  }
+
+  hr{
+    border: 0;
+    border-bottom: 2px dashed #ccc;
+    background: #999;
+  }
+
+  /* Section 3 - Testimonials Section */
+  
+  .section-three {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #3f49cd;
+  }
+  
+  .rounded-boxes {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    background-color: #787486;
+    width: 40%;
+    padding: 0px 5px;
+    margin: 25px 50px;
+    border-radius: 20px;
+    border: 2px solid #030303;
+  }
+
+  .round-two {
+    background-color: #000;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 70px;
+    width: 70px; 
+    border: 2px solid #979797;
+    border-radius: 50%;
+  }
+
+  /* Footer's Description */
+
+  footer {
+    background-color: #454aa1;;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  footer h5 {
+      font-size: 16px;
+      padding: 20px 0px 60px 10px;
+      font-weight: bolder;
+      margin-left: 50px;
+  }
+  
